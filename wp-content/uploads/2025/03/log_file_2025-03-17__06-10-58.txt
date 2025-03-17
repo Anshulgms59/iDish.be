@@ -1,0 +1,72 @@
+
+---Downloaded files---
+The import files for: Home were successfully downloaded!
+Initial max execution time = 3600
+Files info:
+Site URL = https://idish.be
+Data file = /home/idish/public_html/wp-content/themes/foogra/inc/vendors/one-click-demo-import/data/dummy-data.xml
+Widget file = /home/idish/public_html/wp-content/themes/foogra/inc/vendors/one-click-demo-import/data/widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[ERROR] Failed to import "logo" (Media)
+[ERROR] Failed to import "twitter_icon" (Media)
+[ERROR] Failed to import "facebook_icon" (Media)
+[ERROR] Failed to import "instagram_icon" (Media)
+[ERROR] Failed to import "youtube_icon" (Media)
+[ERROR] Failed to import "cards_all" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Sidebar Default : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Listings filter sidebar : 
+
+Apus Show Elementor Template Widget - No Title - Imported
+
+Listings filter Top : 
+
+Apus Show Elementor Template Widget - No Title - Imported
+
+Listings filter Top Map : 
+
+Apus Show Elementor Template Widget - No Title - Imported
+
+Listing single sidebar : 
+
+Listing Detail:: Price - Prices - Imported
+Listing Detail:: Hours - Opening Time - Imported
+Listing Detail:: Contact Form - Contact Us - Imported
+
+User Profile sidebar : 
+
+Apus User Short Profile - No Title - Imported
+
+Blog sidebar : 
+
+Apus Recent Posts Widget - Latest Post - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+
+
+---ocdi/after_import---
+

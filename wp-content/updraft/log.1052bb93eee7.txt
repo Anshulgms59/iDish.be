@@ -1,0 +1,642 @@
+0000.001 (0) Opened log file at time: Mon, 17 Mar 2025 05:43:58 +0000 on https://idish.be
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.2 PHP: 8.2.27 (cgi-fcgi, Linux kmowebsi.superdnsserver.net 4.18.0-553.el8_10.x86_64 #1 SMP Fri May 24 08:32:12 EDT 2024 x86_64) MySQL: 10.6.21-MariaDB-log (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.3M | 10M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.067 (0) Free space on disk containing Updraft's temporary directory: 546597.6 MB
+0000.070 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.074 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.075 (0) Set semaphore last lock (fd) time to 2025-03-17 05:43:58
+0000.076 (0) Semaphore lock (fd) complete
+0000.079 (0) Backup run: resumption=0, nonce=1052bb93eee7, file_nonce=1052bb93eee7 begun at=1742190238 (0s ago), job type=backup
+0000.081 (0) Scheduling a resumption (1) after 300 seconds (1742190538) in case this run gets aborted
+0000.116 (0) Checking if we have a zip executable available
+0000.116 (0) Testing: /usr/bin/zip
+0000.120 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.121 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.121 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.121 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.122 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.127 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.128 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.130 (0) Working binary zip found: /usr/bin/zip
+0000.131 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.131 (0) Creation of backups of directories: beginning
+0000.133 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.661 (0) Total entities for the zip file: 1440 directories, 8006 files (0 skipped as non-modified), 122.9 MB
+0000.664 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.666 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.669 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.670 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.672 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.674 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.676 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.678 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.680 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.682 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.683 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.8 MB, 8006 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.479 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: size is now: 4.40 MB
+0001.482 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1100 files added (on-disk size: 4460.3 KB)
+0001.484 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1200 files added (on-disk size: 4460.3 KB)
+0001.486 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1300 files added (on-disk size: 4460.3 KB)
+0001.488 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1400 files added (on-disk size: 4460.3 KB)
+0001.490 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1500 files added (on-disk size: 4460.3 KB)
+0001.492 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1600 files added (on-disk size: 4460.3 KB)
+0001.494 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1700 files added (on-disk size: 4460.3 KB)
+0001.496 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1800 files added (on-disk size: 4460.3 KB)
+0001.498 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 1900 files added (on-disk size: 4460.3 KB)
+0001.500 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2000 files added (on-disk size: 4460.3 KB)
+0001.500 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.2 MB, 8006 files batched, 1001 (2002) added so far); re-opening (prior size: 4460.3 KB)
+0002.798 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: size is now: 10.50 MB
+0002.803 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2100 files added (on-disk size: 10756.7 KB)
+0002.806 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2200 files added (on-disk size: 10756.7 KB)
+0002.808 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2300 files added (on-disk size: 10756.7 KB)
+0002.811 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2400 files added (on-disk size: 10756.7 KB)
+0002.814 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2500 files added (on-disk size: 10756.7 KB)
+0002.816 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2600 files added (on-disk size: 10756.7 KB)
+0002.820 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2700 files added (on-disk size: 10756.7 KB)
+0002.822 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2800 files added (on-disk size: 10756.7 KB)
+0002.825 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 2900 files added (on-disk size: 10756.7 KB)
+0002.828 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3000 files added (on-disk size: 10756.7 KB)
+0002.829 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7 MB, 8006 files batched, 1001 (3003) added so far); re-opening (prior size: 10756.7 KB)
+0004.124 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3100 files added (on-disk size: 12858.1 KB)
+0004.127 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3200 files added (on-disk size: 12858.1 KB)
+0004.129 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3300 files added (on-disk size: 12858.1 KB)
+0004.132 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3400 files added (on-disk size: 12858.1 KB)
+0004.134 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3500 files added (on-disk size: 12858.1 KB)
+0004.136 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3600 files added (on-disk size: 12858.1 KB)
+0004.138 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3700 files added (on-disk size: 12858.1 KB)
+0004.141 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3800 files added (on-disk size: 12858.1 KB)
+0004.143 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 3900 files added (on-disk size: 12858.1 KB)
+0004.145 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4000 files added (on-disk size: 12858.1 KB)
+0004.146 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.2 MB, 8006 files batched, 1001 (4004) added so far); re-opening (prior size: 12858.1 KB)
+0005.017 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: size is now: 21.00 MB
+0005.021 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4100 files added (on-disk size: 21463.5 KB)
+0005.023 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4200 files added (on-disk size: 21463.5 KB)
+0005.025 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4300 files added (on-disk size: 21463.5 KB)
+0005.027 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4400 files added (on-disk size: 21463.5 KB)
+0005.029 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4500 files added (on-disk size: 21463.5 KB)
+0005.032 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4600 files added (on-disk size: 21463.5 KB)
+0005.034 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4700 files added (on-disk size: 21463.5 KB)
+0005.036 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4800 files added (on-disk size: 21463.5 KB)
+0005.038 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 4900 files added (on-disk size: 21463.5 KB)
+0005.040 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5000 files added (on-disk size: 21463.5 KB)
+0005.041 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.8 MB, 8006 files batched, 1001 (5005) added so far); re-opening (prior size: 21463.5 KB)
+0005.841 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5100 files added (on-disk size: 24018.1 KB)
+0005.844 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5200 files added (on-disk size: 24018.1 KB)
+0005.846 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5300 files added (on-disk size: 24018.1 KB)
+0005.848 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5400 files added (on-disk size: 24018.1 KB)
+0005.850 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5500 files added (on-disk size: 24018.1 KB)
+0005.853 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5600 files added (on-disk size: 24018.1 KB)
+0005.855 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5700 files added (on-disk size: 24018.1 KB)
+0005.857 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5800 files added (on-disk size: 24018.1 KB)
+0005.859 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 5900 files added (on-disk size: 24018.1 KB)
+0005.861 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6000 files added (on-disk size: 24018.1 KB)
+0005.862 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.3 MB, 8006 files batched, 1001 (6006) added so far); re-opening (prior size: 24018.1 KB)
+0006.573 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6100 files added (on-disk size: 26266.9 KB)
+0006.575 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6200 files added (on-disk size: 26266.9 KB)
+0006.577 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6300 files added (on-disk size: 26266.9 KB)
+0006.579 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6400 files added (on-disk size: 26266.9 KB)
+0006.582 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6500 files added (on-disk size: 26266.9 KB)
+0006.584 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6600 files added (on-disk size: 26266.9 KB)
+0006.586 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6700 files added (on-disk size: 26266.9 KB)
+0006.588 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6800 files added (on-disk size: 26266.9 KB)
+0006.590 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 6900 files added (on-disk size: 26266.9 KB)
+0006.592 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7000 files added (on-disk size: 26266.9 KB)
+0006.593 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.3 MB, 8006 files batched, 1001 (7007) added so far); re-opening (prior size: 26266.9 KB)
+0007.725 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: size is now: 31.00 MB
+0007.730 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7100 files added (on-disk size: 31695.1 KB)
+0007.733 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7200 files added (on-disk size: 31695.1 KB)
+0007.735 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7300 files added (on-disk size: 31695.1 KB)
+0007.737 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7400 files added (on-disk size: 31695.1 KB)
+0007.739 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.2 MB, 8006 files batched, 475 (7482) added so far); re-opening (prior size: 31695.1 KB)
+0008.976 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.7 s, rate: 15010.9 KB/s)
+0008.978 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.7866089344025, normalised_time=1.7054225236436, max_time=8.9765608310699, data points known=1, old_max_bytes=26214400, new_max_bytes=92227232)
+0008.979 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7500 files added (on-disk size: 37068.9 KB)
+0008.981 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7600 files added (on-disk size: 37068.9 KB)
+0008.983 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7700 files added (on-disk size: 37068.9 KB)
+0008.984 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7800 files added (on-disk size: 37068.9 KB)
+0008.986 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 7900 files added (on-disk size: 37068.9 KB)
+0008.988 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.tmp: 8000 files added (on-disk size: 37068.9 KB)
+0009.858 (0) Creating zip file manifest (backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.list-temp.tmp)
+0009.887 (0) Successfully created zip file manifest (size: 677303)
+0010.494 (0) Created plugins zip (0) - 40065.1 KB in 10.3 s (3886.2 KB/s) (sha1: 23dadd4490dcf8600d02abe34890ffc550d1453b, sha256: de1b16c7563b7b8ebd5c0995d782749f0ee1f861c6a7892298d8be44472eb799)
+0010.506 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.507 (0) No remote despatch: user chose no remote backup service
+0010.508 (0) Recording as successfully uploaded: backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip
+0010.510 (0) Deleting zip manifest (backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip.list.tmp)
+0010.512 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.515 (0) Number of backup sets in history: 1; groups (db): 1
+0010.516 (0) Examining (for databases) backup set with group_id=0, nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0010.516 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.517 (0) Number of backup sets in history: 1; groups (files): 1
+0010.517 (0) Examining (for files) backup set with nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0010.517 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.518 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0010.521 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.961 (0) Total entities for the zip file: 1182 directories, 4910 files (0 skipped as non-modified), 121.1 MB
+0010.965 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.967 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.969 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.971 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.973 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.975 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0010.977 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0010.980 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0010.982 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0010.984 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0010.984 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (33.4 MB, 4910 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0012.879 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: size is now: 28.70 MB
+0012.884 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1100 files added (on-disk size: 29434.7 KB)
+0012.886 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1200 files added (on-disk size: 29434.7 KB)
+0012.888 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1300 files added (on-disk size: 29434.7 KB)
+0012.890 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1400 files added (on-disk size: 29434.7 KB)
+0012.893 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1500 files added (on-disk size: 29434.7 KB)
+0012.895 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1600 files added (on-disk size: 29434.7 KB)
+0012.897 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1700 files added (on-disk size: 29434.7 KB)
+0012.899 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1800 files added (on-disk size: 29434.7 KB)
+0012.901 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 1900 files added (on-disk size: 29434.7 KB)
+0012.903 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2000 files added (on-disk size: 29434.7 KB)
+0012.903 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (33.8 MB, 4910 files batched, 1001 (2002) added so far); re-opening (prior size: 29434.7 KB)
+0014.918 (0) PHP event: code E_WARNING: filesize(): stat failed for /home/idish/public_html/wp-content/updraft/backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0014.926 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: size is now: 58.00 MB
+0014.931 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2100 files added (on-disk size: 59347.6 KB)
+0014.933 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2200 files added (on-disk size: 59347.6 KB)
+0014.935 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2300 files added (on-disk size: 59347.6 KB)
+0014.938 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2400 files added (on-disk size: 59347.6 KB)
+0014.940 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2500 files added (on-disk size: 59347.6 KB)
+0014.942 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2600 files added (on-disk size: 59347.6 KB)
+0014.944 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2700 files added (on-disk size: 59347.6 KB)
+0014.947 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2800 files added (on-disk size: 59347.6 KB)
+0014.949 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 2900 files added (on-disk size: 59347.6 KB)
+0014.951 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3000 files added (on-disk size: 59347.6 KB)
+0014.952 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (41 MB, 4910 files batched, 1001 (3003) added so far); re-opening (prior size: 59347.6 KB)
+0017.452 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: size is now: 90.70 MB
+0017.457 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3100 files added (on-disk size: 92879.4 KB)
+0017.460 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3200 files added (on-disk size: 92879.4 KB)
+0017.462 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3300 files added (on-disk size: 92879.4 KB)
+0017.464 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3400 files added (on-disk size: 92879.4 KB)
+0017.466 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3500 files added (on-disk size: 92879.4 KB)
+0017.468 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3600 files added (on-disk size: 92879.4 KB)
+0017.470 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3700 files added (on-disk size: 92879.4 KB)
+0017.472 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3800 files added (on-disk size: 92879.4 KB)
+0017.474 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 3900 files added (on-disk size: 92879.4 KB)
+0017.476 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4000 files added (on-disk size: 92879.4 KB)
+0017.476 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.7 MB, 4910 files batched, 1001 (4004) added so far); re-opening (prior size: 92879.4 KB)
+0018.365 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4100 files added (on-disk size: 97305.2 KB)
+0018.368 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4200 files added (on-disk size: 97305.2 KB)
+0018.370 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4300 files added (on-disk size: 97305.2 KB)
+0018.373 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4400 files added (on-disk size: 97305.2 KB)
+0018.375 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4500 files added (on-disk size: 97305.2 KB)
+0018.377 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4600 files added (on-disk size: 97305.2 KB)
+0018.380 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4700 files added (on-disk size: 97305.2 KB)
+0018.382 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4800 files added (on-disk size: 97305.2 KB)
+0018.385 (0) Zip: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.tmp: 4900 files added (on-disk size: 97305.2 KB)
+0019.119 (0) Creating zip file manifest (backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.list-temp.tmp)
+0019.135 (0) Successfully created zip file manifest (size: 420124)
+0020.192 (0) Created themes zip (0) - 98927.8 KB in 9.6 s (10285.7 KB/s) (sha1: e941d28433cb05d3525343fb565cf0a07001d4ab, sha256: d8beaaba7f9da724c53d745d3b61fb6ad55533d977bd021b4c287e6ac0193dd6)
+0020.199 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0020.200 (0) No remote despatch: user chose no remote backup service
+0020.200 (0) Recording as successfully uploaded: backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip
+0020.201 (0) Deleting zip manifest (backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip.list.tmp)
+0020.203 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.204 (0) Number of backup sets in history: 1; groups (db): 1
+0020.204 (0) Examining (for databases) backup set with group_id=0, nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0020.205 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.205 (0) Number of backup sets in history: 1; groups (files): 1
+0020.206 (0) Examining (for files) backup set with nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0020.206 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.206 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0020.210 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0020.212 (0) Looking for candidates to backup in: /home/idish/public_html/wp-content/uploads
+0020.213 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (1)
+0020.213 (0) finding files: woocommerce-placeholder-600x396.png: adding to list (2)
+0020.214 (0) finding files: woocommerce_uploads: adding to list (3)
+0020.214 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (4)
+0020.214 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (5)
+0020.215 (0) finding files: woocommerce-placeholder-1118x1006.png: adding to list (6)
+0020.215 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (7)
+0020.215 (0) finding files: wc-logs: adding to list (8)
+0020.216 (0) finding files: woocommerce-placeholder-558x502.png: adding to list (9)
+0020.216 (0) finding files: woocommerce-placeholder.png: adding to list (10)
+0020.216 (0) finding files: woocommerce-placeholder-1086x1050.png: adding to list (11)
+0020.216 (0) finding files: 2025: adding to list (12)
+0020.217 (0) finding files: wpcf7_uploads: adding to list (13)
+0020.217 (0) finding files: woocommerce-placeholder-234x234.png: adding to list (14)
+0020.217 (0) finding files: woocommerce-placeholder-708x470.png: adding to list (15)
+0020.218 (0) finding files: elementor: adding to list (16)
+0020.218 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (17)
+0020.218 (0) finding files: woocommerce-placeholder-543x525.png: adding to list (18)
+0020.218 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (19)
+0020.219 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0020.280 (0) Total entities for the zip file: 8 directories, 50 files (0 skipped as non-modified), 4.5 MB
+0020.327 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-uploads.zip.tmp: size is now: 4.50 MB
+0020.329 (0) Creating zip file manifest (backup_2025-03-17-0543_iDishbe_1052bb93eee7-uploads.zip.list-temp.tmp)
+0020.330 (0) Successfully created zip file manifest (size: 2882)
+0020.383 (0) Created uploads zip (0) - 4563.7 KB in 0.1 s (41833.9 KB/s) (sha1: d262e211012e7cdd0886c7fcd6f1726168b4dacf, sha256: 491d578431cfd8a4f7a7e30c11d150de4b73554c135f80e95c684e1dc79a6bea)
+0020.385 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0020.386 (0) No remote despatch: user chose no remote backup service
+0020.386 (0) Recording as successfully uploaded: backup_2025-03-17-0543_iDishbe_1052bb93eee7-uploads.zip
+0020.387 (0) Deleting zip manifest (backup_2025-03-17-0543_iDishbe_1052bb93eee7-uploads.zip.list.tmp)
+0020.389 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.390 (0) Number of backup sets in history: 1; groups (db): 1
+0020.390 (0) Examining (for databases) backup set with group_id=0, nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0020.390 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.390 (0) Number of backup sets in history: 1; groups (files): 1
+0020.391 (0) Examining (for files) backup set with nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0020.391 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.391 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0020.394 (0) No backup of mu-plugins: excluded by user's options
+0020.395 (0) Beginning backup of other directories found in the content directory (index: 0)
+0020.396 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0020.396 (0) Looking for candidates to backup in: /home/idish/public_html/wp-content
+0020.397 (0) finding files: index.php: adding to list (1)
+0020.397 (0) finding files: plugins: skipping: this is the plugins directory
+0020.397 (0) finding files: themes: skipping: this is the themes directory
+0020.398 (0) finding files: updraft: skipping: this is the updraft directory
+0020.398 (0) finding files: upgrade: skipping: excluded by options
+0020.398 (0) finding files: .htaccess: adding to list (2)
+0020.399 (0) finding files: upgrade-temp-backup: adding to list (3)
+0020.399 (0) finding files: uploads: skipping: this is the uploads directory
+0020.451 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0020.460 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-others.zip.tmp: size is now: 0.00 MB
+0020.462 (0) Creating zip file manifest (backup_2025-03-17-0543_iDishbe_1052bb93eee7-others.zip.list-temp.tmp)
+0020.463 (0) Successfully created zip file manifest (size: 61)
+0020.465 (0) Created others zip (0) - 0.7 KB in 0 s (49.5 KB/s) (sha1: aa53472ec464b3624b018bc7bc01df4ca884c993, sha256: 67de84a8d45025d804a1ca956a2b51d37230d2d35d28942c4815f7112ba3dd85)
+0020.467 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0020.468 (0) No remote despatch: user chose no remote backup service
+0020.468 (0) Recording as successfully uploaded: backup_2025-03-17-0543_iDishbe_1052bb93eee7-others.zip
+0020.469 (0) Deleting zip manifest (backup_2025-03-17-0543_iDishbe_1052bb93eee7-others.zip.list.tmp)
+0020.471 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.472 (0) Number of backup sets in history: 1; groups (db): 1
+0020.472 (0) Examining (for databases) backup set with group_id=0, nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0020.472 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.473 (0) Number of backup sets in history: 1; groups (files): 1
+0020.473 (0) Examining (for files) backup set with nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0020.473 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.473 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0020.479 (0) Saving backup status to database (elements: 8)
+0020.481 (0) Beginning creation of database dump (WordPress DB)
+0020.482 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0020.487 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0020.514 (0) Output: /*M!999999\- enable the sandbox mode */ \n/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `pVY_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!401 (truncated - 1489 bytes total)
+0020.515 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0020.553 (0) Table pVY_options: Total expected rows (via COUNT): 467
+0020.553 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.643 (0) Table pVY_options: Rows added in this batch (next record: 3547): 463 (uncompressed bytes in this segment=1963784) in 0.10 seconds
+0020.648 (0) Table pVY_options: finishing file(s) (2, 307.8 KB)
+0020.652 (0) Table pVY_users: Total expected rows (via COUNT): 4
+0020.653 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.656 (0) Table pVY_users: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=1615) in 0.01 seconds
+0020.659 (0) Table pVY_users: finishing file(s) (2, 0.8 KB)
+0020.664 (0) Table pVY_usermeta: Total expected rows (via COUNT): 111
+0020.665 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.668 (0) Table pVY_usermeta: Rows added in this batch (next record: 152): 111 (uncompressed bytes in this segment=7403) in 0.01 seconds
+0020.671 (0) Table pVY_usermeta: finishing file(s) (2, 2.4 KB)
+0020.677 (0) Table pVY_actionscheduler_actions: Total expected rows (via COUNT): 21
+0020.678 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.681 (0) Table pVY_actionscheduler_actions: Rows added in this batch (next record: 58): 21 (uncompressed bytes in this segment=11113) in 0.01 seconds
+0020.684 (0) Table pVY_actionscheduler_actions: finishing file(s) (2, 1.5 KB)
+0020.687 (0) Table pVY_actionscheduler_claims: Total expected rows (via COUNT): 0
+0020.690 (0) Table pVY_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=632) in 0.00 seconds
+0020.692 (0) Table pVY_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0020.695 (0) Table pVY_actionscheduler_groups: Total expected rows (via COUNT): 3
+0020.696 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.697 (0) Table pVY_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=716) in 0.00 seconds
+0020.700 (0) Table pVY_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0020.703 (0) Table pVY_actionscheduler_logs: Total expected rows (via COUNT): 59
+0020.704 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.706 (0) Table pVY_actionscheduler_logs: Rows added in this batch (next record: 59): 59 (uncompressed bytes in this segment=5703) in 0.00 seconds
+0020.709 (0) Table pVY_actionscheduler_logs: finishing file(s) (2, 1 KB)
+0020.714 (0) Table pVY_commentmeta: Total expected rows (via COUNT): 0
+0020.716 (0) Table pVY_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=640) in 0.00 seconds
+0020.719 (0) Table pVY_commentmeta: finishing file(s) (2, 0.4 KB)
+0020.723 (0) Table pVY_comments: Total expected rows (via COUNT): 1
+0020.723 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.725 (0) Table pVY_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1936) in 0.00 seconds
+0020.728 (0) Table pVY_comments: finishing file(s) (2, 0.8 KB)
+0020.742 (0) Table pVY_links: Total expected rows (via COUNT): 0
+0020.744 (0) Table pVY_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1033) in 0.01 seconds
+0020.748 (0) Table pVY_links: finishing file(s) (2, 0.5 KB)
+0020.757 (0) Table pVY_postmeta: Total expected rows (via COUNT): 93
+0020.757 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.761 (0) Table pVY_postmeta: Rows added in this batch (next record: 135): 93 (uncompressed bytes in this segment=16430) in 0.01 seconds
+0020.764 (0) Table pVY_postmeta: finishing file(s) (2, 3.3 KB)
+0020.769 (0) Table pVY_posts: Total expected rows (via COUNT): 44
+0020.769 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.774 (0) Table pVY_posts: Rows added in this batch (next record: 59): 44 (uncompressed bytes in this segment=47683) in 0.01 seconds
+0020.777 (0) Table pVY_posts: finishing file(s) (2, 8.9 KB)
+0020.781 (0) Table pVY_term_relationships: Total expected rows (approximate): 7
+0020.783 (0) Table pVY_term_relationships: Rows added in this batch (next record: 100000): 7 (uncompressed bytes in this segment=779) in 0.00 seconds
+0020.785 (0) Table pVY_term_relationships: finishing file(s) (2, 0.4 KB)
+0020.790 (0) Table pVY_term_taxonomy: Total expected rows (via COUNT): 17
+0020.790 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.793 (0) Table pVY_term_taxonomy: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1488) in 0.01 seconds
+0020.796 (0) Table pVY_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0020.801 (0) Table pVY_termmeta: Total expected rows (via COUNT): 0
+0020.802 (0) Table pVY_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=613) in 0.00 seconds
+0020.805 (0) Table pVY_termmeta: finishing file(s) (2, 0.4 KB)
+0020.808 (0) Table pVY_terms: Total expected rows (via COUNT): 17
+0020.808 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.811 (0) Table pVY_terms: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1285) in 0.00 seconds
+0020.814 (0) Table pVY_terms: finishing file(s) (2, 0.6 KB)
+0020.817 (0) Table pVY_wc_category_lookup: Total expected rows (approximate): 1
+0020.820 (0) Table pVY_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=596) in 0.00 seconds
+0020.822 (0) Table pVY_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0020.829 (0) Table pVY_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0020.830 (0) Table pVY_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1302) in 0.00 seconds
+0020.832 (0) Table pVY_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0020.838 (0) Table pVY_wc_reserved_stock: Total expected rows (approximate): 0
+0020.839 (0) Table pVY_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=669) in 0.00 seconds
+0020.842 (0) Table pVY_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0020.846 (0) Table pVY_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0020.846 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.851 (0) Table pVY_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=757) in 0.01 seconds
+0020.854 (0) Table pVY_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0020.860 (0) Table pVY_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0020.863 (0) Table pVY_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.01 seconds
+0020.867 (0) Table pVY_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0020.874 (0) Table pVY_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0020.875 (0) Table pVY_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=755) in 0.00 seconds
+0020.878 (0) Table pVY_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0020.883 (0) Table pVY_e_events: Total expected rows (via COUNT): 1
+0020.884 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.886 (0) Table pVY_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=780) in 0.00 seconds
+0020.889 (0) Table pVY_e_events: finishing file(s) (2, 0.5 KB)
+0020.896 (0) Table pVY_routiz_messages: Total expected rows (via COUNT): 0
+0020.897 (0) Table pVY_routiz_messages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.00 seconds
+0020.900 (0) Table pVY_routiz_messages: finishing file(s) (2, 0.4 KB)
+0020.906 (0) Table pVY_routiz_notifications: Total expected rows (via COUNT): 0
+0020.907 (0) Table pVY_routiz_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=672) in 0.00 seconds
+0020.910 (0) Table pVY_routiz_notifications: finishing file(s) (2, 0.4 KB)
+0020.916 (0) Table pVY_routiz_user_packages: Total expected rows (via COUNT): 0
+0020.917 (0) Table pVY_routiz_user_packages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=784) in 0.00 seconds
+0020.919 (0) Table pVY_routiz_user_packages: finishing file(s) (2, 0.4 KB)
+0020.924 (0) Table pVY_routiz_views: Total expected rows (via COUNT): 0
+0020.925 (0) Table pVY_routiz_views: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=556) in 0.00 seconds
+0020.928 (0) Table pVY_routiz_views: finishing file(s) (2, 0.3 KB)
+0020.932 (0) Table pVY_routiz_visits: Total expected rows (via COUNT): 0
+0020.933 (0) Table pVY_routiz_visits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=537) in 0.00 seconds
+0020.935 (0) Table pVY_routiz_visits: finishing file(s) (2, 0.3 KB)
+0020.939 (0) Table pVY_routiz_wallet: Total expected rows (via COUNT): 0
+0020.940 (0) Table pVY_routiz_wallet: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.00 seconds
+0020.942 (0) Table pVY_routiz_wallet: finishing file(s) (2, 0.3 KB)
+0020.946 (0) Table pVY_routiz_wallet_payouts: Total expected rows (via COUNT): 0
+0020.947 (0) Table pVY_routiz_wallet_payouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.00 seconds
+0020.949 (0) Table pVY_routiz_wallet_payouts: finishing file(s) (2, 0.4 KB)
+0020.954 (0) Table pVY_routiz_wallet_transactions: Total expected rows (via COUNT): 0
+0020.955 (0) Table pVY_routiz_wallet_transactions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.00 seconds
+0020.958 (0) Table pVY_routiz_wallet_transactions: finishing file(s) (2, 0.4 KB)
+0020.964 (0) Table pVY_site_mail_logs: Total expected rows (via COUNT): 0
+0020.965 (0) Table pVY_site_mail_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=938) in 0.00 seconds
+0020.967 (0) Table pVY_site_mail_logs: finishing file(s) (2, 0.5 KB)
+0020.972 (0) Table pVY_site_mail_statuses: Total expected rows (via COUNT): 0
+0020.973 (0) Table pVY_site_mail_statuses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=989) in 0.00 seconds
+0020.975 (0) Table pVY_site_mail_statuses: finishing file(s) (2, 0.5 KB)
+0020.979 (0) Table pVY_site_mail_suppressions: Total expected rows (via COUNT): 0
+0020.980 (0) Table pVY_site_mail_suppressions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=827) in 0.00 seconds
+0020.982 (0) Table pVY_site_mail_suppressions: finishing file(s) (2, 0.4 KB)
+0020.986 (0) Table pVY_wc_admin_note_actions: Total expected rows (via COUNT): 94
+0020.987 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.990 (0) Table pVY_wc_admin_note_actions: Rows added in this batch (next record: 1802): 94 (uncompressed bytes in this segment=17827) in 0.01 seconds
+0020.994 (0) Table pVY_wc_admin_note_actions: finishing file(s) (2, 3 KB)
+0020.999 (0) Table pVY_wc_admin_notes: Total expected rows (via COUNT): 65
+0020.999 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.003 (0) Table pVY_wc_admin_notes: Rows added in this batch (next record: 65): 65 (uncompressed bytes in this segment=32444) in 0.01 seconds
+0021.006 (0) Table pVY_wc_admin_notes: finishing file(s) (2, 7.2 KB)
+0021.012 (0) Table pVY_wc_customer_lookup: Total expected rows (via COUNT): 0
+0021.014 (0) Table pVY_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1024) in 0.00 seconds
+0021.016 (0) Table pVY_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0021.021 (0) Table pVY_wc_download_log: Total expected rows (via COUNT): 0
+0021.021 (0) Table pVY_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.00 seconds
+0021.024 (0) Table pVY_wc_download_log: finishing file(s) (2, 0.4 KB)
+0021.029 (0) Table pVY_wc_order_addresses: Total expected rows (via COUNT): 0
+0021.030 (0) Table pVY_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1064) in 0.00 seconds
+0021.033 (0) Table pVY_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0021.036 (0) Table pVY_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0021.038 (0) Table pVY_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=721) in 0.00 seconds
+0021.040 (0) Table pVY_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0021.045 (0) Table pVY_wc_order_operational_data: Total expected rows (via COUNT): 0
+0021.045 (0) Table pVY_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1405) in 0.00 seconds
+0021.048 (0) Table pVY_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0021.052 (0) Table pVY_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0021.053 (0) Table pVY_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1221) in 0.00 seconds
+0021.055 (0) Table pVY_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0021.058 (0) Table pVY_wc_order_stats: Total expected rows (via COUNT): 0
+0021.059 (0) Table pVY_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1198) in 0.00 seconds
+0021.062 (0) Table pVY_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0021.066 (0) Table pVY_wc_order_tax_lookup: Total expected rows (approximate): 0
+0021.067 (0) Table pVY_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.00 seconds
+0021.069 (0) Table pVY_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0021.076 (0) Table pVY_wc_orders: Total expected rows (via COUNT): 0
+0021.077 (0) Table pVY_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1423) in 0.00 seconds
+0021.080 (0) Table pVY_wc_orders: finishing file(s) (2, 0.6 KB)
+0021.085 (0) Table pVY_wc_orders_meta: Total expected rows (via COUNT): 0
+0021.087 (0) Table pVY_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 0.00 seconds
+0021.090 (0) Table pVY_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0021.093 (0) Table pVY_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0021.095 (0) Table pVY_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=837) in 0.00 seconds
+0021.097 (0) Table pVY_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0021.101 (0) Table pVY_wc_product_download_directories: Total expected rows (via COUNT): 2
+0021.101 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.104 (0) Table pVY_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=880) in 0.00 seconds
+0021.106 (0) Table pVY_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0021.110 (0) Table pVY_wc_rate_limits: Total expected rows (via COUNT): 0
+0021.112 (0) Table pVY_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.00 seconds
+0021.115 (0) Table pVY_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0021.120 (0) Table pVY_wc_webhooks: Total expected rows (via COUNT): 0
+0021.121 (0) Table pVY_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1077) in 0.00 seconds
+0021.124 (0) Table pVY_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0021.130 (0) Table pVY_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0021.130 (0) Table pVY_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=879) in 0.00 seconds
+0021.134 (0) Table pVY_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0021.139 (0) Table pVY_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0021.140 (0) Table pVY_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0021.143 (0) Table pVY_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0021.147 (0) Table pVY_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0021.148 (0) Table pVY_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1416) in 0.00 seconds
+0021.151 (0) Table pVY_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0021.156 (0) Table pVY_woocommerce_log: Total expected rows (via COUNT): 0
+0021.157 (0) Table pVY_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0021.160 (0) Table pVY_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0021.165 (0) Table pVY_woocommerce_order_items: Total expected rows (via COUNT): 0
+0021.166 (0) Table pVY_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=683) in 0.00 seconds
+0021.168 (0) Table pVY_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0021.173 (0) Table pVY_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0021.174 (0) Table pVY_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.00 seconds
+0021.176 (0) Table pVY_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0021.181 (0) Table pVY_woocommerce_sessions: Total expected rows (via COUNT): 1
+0021.181 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.183 (0) Table pVY_woocommerce_sessions: Rows added in this batch (next record: 9): 1 (uncompressed bytes in this segment=2166) in 0.00 seconds
+0021.186 (0) Table pVY_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0021.190 (0) Table pVY_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0021.191 (0) Table pVY_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.00 seconds
+0021.194 (0) Table pVY_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0021.198 (0) Table pVY_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0021.199 (0) Table pVY_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=748) in 0.00 seconds
+0021.202 (0) Table pVY_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0021.205 (0) Table pVY_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0021.206 (0) Table pVY_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=608) in 0.00 seconds
+0021.208 (0) Table pVY_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0021.213 (0) Table pVY_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0021.214 (0) Table pVY_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=792) in 0.00 seconds
+0021.216 (0) Table pVY_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0021.220 (0) Table pVY_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0021.221 (0) Table pVY_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1148) in 0.00 seconds
+0021.223 (0) Table pVY_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0021.224 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/idish/public_html/wp-content/updraft/backup_2025-03-17-0543_iDishbe_1052bb93eee7-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0021.225 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_options.table.tmpr3548.gz (1/62/fopen): adding to final database dump
+0021.230 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_options.table.gz (2/62/fopen): adding to final database dump
+0021.231 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_users.table.tmpr6.gz (3/62/fopen): adding to final database dump
+0021.232 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_users.table.gz (4/62/fopen): adding to final database dump
+0021.232 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_usermeta.table.tmpr153.gz (5/62/fopen): adding to final database dump
+0021.232 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_usermeta.table.gz (6/62/fopen): adding to final database dump
+0021.233 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_actionscheduler_actions.table.tmpr59.gz (7/62/fopen): adding to final database dump
+0021.233 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_actionscheduler_actions.table.gz (8/62/fopen): adding to final database dump
+0021.234 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_actionscheduler_claims.table.tmpr0.gz (9/62/fopen): adding to final database dump
+0021.234 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_actionscheduler_claims.table.gz (10/62/fopen): adding to final database dump
+0021.235 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_actionscheduler_groups.table.tmpr4.gz (11/62/fopen): adding to final database dump
+0021.235 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_actionscheduler_groups.table.gz (12/62/fopen): adding to final database dump
+0021.235 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_actionscheduler_logs.table.tmpr60.gz (13/62/fopen): adding to final database dump
+0021.236 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_actionscheduler_logs.table.gz (14/62/fopen): adding to final database dump
+0021.236 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_commentmeta.table.tmpr0.gz (15/62/fopen): adding to final database dump
+0021.237 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_commentmeta.table.gz (16/62/fopen): adding to final database dump
+0021.237 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_comments.table.tmpr2.gz (17/62/fopen): adding to final database dump
+0021.237 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_comments.table.gz (18/62/fopen): adding to final database dump
+0021.238 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_links.table.tmpr0.gz (19/62/fopen): adding to final database dump
+0021.238 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_links.table.gz (20/62/fopen): adding to final database dump
+0021.238 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_postmeta.table.tmpr136.gz (21/62/fopen): adding to final database dump
+0021.239 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_postmeta.table.gz (22/62/fopen): adding to final database dump
+0021.239 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_posts.table.tmpr60.gz (23/62/fopen): adding to final database dump
+0021.240 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_posts.table.gz (24/62/fopen): adding to final database dump
+0021.240 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_term_relationships.table.tmpr100001.gz (25/62/fopen): adding to final database dump
+0021.240 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_term_relationships.table.gz (26/62/fopen): adding to final database dump
+0021.241 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_term_taxonomy.table.tmpr18.gz (27/62/fopen): adding to final database dump
+0021.241 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_term_taxonomy.table.gz (28/62/fopen): adding to final database dump
+0021.242 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_termmeta.table.tmpr0.gz (29/62/fopen): adding to final database dump
+0021.242 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_termmeta.table.gz (30/62/fopen): adding to final database dump
+0021.242 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_terms.table.tmpr18.gz (31/62/fopen): adding to final database dump
+0021.243 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_terms.table.gz (32/62/fopen): adding to final database dump
+0021.243 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_category_lookup.table.tmpr1001.gz (33/62/fopen): adding to final database dump
+0021.243 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_category_lookup.table.gz (34/62/fopen): adding to final database dump
+0021.244 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_product_meta_lookup.table.tmpr0.gz (35/62/fopen): adding to final database dump
+0021.244 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_product_meta_lookup.table.gz (36/62/fopen): adding to final database dump
+0021.244 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_reserved_stock.table.tmpr1.gz (37/62/fopen): adding to final database dump
+0021.245 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_reserved_stock.table.gz (38/62/fopen): adding to final database dump
+0021.245 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_tax_rate_classes.table.tmpr3.gz (39/62/fopen): adding to final database dump
+0021.245 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_tax_rate_classes.table.gz (40/62/fopen): adding to final database dump
+0021.246 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_order_itemmeta.table.tmpr0.gz (41/62/fopen): adding to final database dump
+0021.246 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_order_itemmeta.table.gz (42/62/fopen): adding to final database dump
+0021.247 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/62/fopen): adding to final database dump
+0021.247 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_payment_tokenmeta.table.gz (44/62/fopen): adding to final database dump
+0021.247 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_e_events.table.tmpr2.gz (45/62/fopen): adding to final database dump
+0021.248 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_e_events.table.gz (46/62/fopen): adding to final database dump
+0021.248 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_messages.table.tmpr0.gz (47/62/fopen): adding to final database dump
+0021.248 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_messages.table.gz (48/62/fopen): adding to final database dump
+0021.249 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_notifications.table.tmpr0.gz (49/62/fopen): adding to final database dump
+0021.249 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_notifications.table.gz (50/62/fopen): adding to final database dump
+0021.249 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_user_packages.table.tmpr0.gz (51/62/fopen): adding to final database dump
+0021.250 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_user_packages.table.gz (52/62/fopen): adding to final database dump
+0021.250 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_views.table.tmpr0.gz (53/62/fopen): adding to final database dump
+0021.251 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_views.table.gz (54/62/fopen): adding to final database dump
+0021.251 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_visits.table.tmpr0.gz (55/62/fopen): adding to final database dump
+0021.252 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_visits.table.gz (56/62/fopen): adding to final database dump
+0021.252 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_wallet.table.tmpr0.gz (57/62/fopen): adding to final database dump
+0021.252 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_wallet.table.gz (58/62/fopen): adding to final database dump
+0021.253 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_wallet_payouts.table.tmpr0.gz (59/62/fopen): adding to final database dump
+0021.253 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_wallet_payouts.table.gz (60/62/fopen): adding to final database dump
+0021.254 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_wallet_transactions.table.tmpr0.gz (61/62/fopen): adding to final database dump
+0021.254 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_routiz_wallet_transactions.table.gz (62/62/fopen): adding to final database dump
+0021.254 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_site_mail_logs.table.tmpr0.gz (63/62/fopen): adding to final database dump
+0021.255 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_site_mail_logs.table.gz (64/62/fopen): adding to final database dump
+0021.255 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_site_mail_statuses.table.tmpr0.gz (65/62/fopen): adding to final database dump
+0021.255 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_site_mail_statuses.table.gz (66/62/fopen): adding to final database dump
+0021.256 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_site_mail_suppressions.table.tmpr0.gz (67/62/fopen): adding to final database dump
+0021.256 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_site_mail_suppressions.table.gz (68/62/fopen): adding to final database dump
+0021.257 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_admin_note_actions.table.tmpr1803.gz (69/62/fopen): adding to final database dump
+0021.257 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_admin_note_actions.table.gz (70/62/fopen): adding to final database dump
+0021.257 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_admin_notes.table.tmpr66.gz (71/62/fopen): adding to final database dump
+0021.258 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_admin_notes.table.gz (72/62/fopen): adding to final database dump
+0021.258 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_customer_lookup.table.tmpr0.gz (73/62/fopen): adding to final database dump
+0021.259 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_customer_lookup.table.gz (74/62/fopen): adding to final database dump
+0021.259 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_download_log.table.tmpr0.gz (75/62/fopen): adding to final database dump
+0021.259 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_download_log.table.gz (76/62/fopen): adding to final database dump
+0021.260 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_addresses.table.tmpr0.gz (77/62/fopen): adding to final database dump
+0021.260 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_addresses.table.gz (78/62/fopen): adding to final database dump
+0021.260 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_coupon_lookup.table.tmpr1.gz (79/62/fopen): adding to final database dump
+0021.261 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_coupon_lookup.table.gz (80/62/fopen): adding to final database dump
+0021.261 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_operational_data.table.tmpr0.gz (81/62/fopen): adding to final database dump
+0021.261 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_operational_data.table.gz (82/62/fopen): adding to final database dump
+0021.262 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_product_lookup.table.tmpr0.gz (83/62/fopen): adding to final database dump
+0021.262 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_product_lookup.table.gz (84/62/fopen): adding to final database dump
+0021.262 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_stats.table.tmpr0.gz (85/62/fopen): adding to final database dump
+0021.263 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_stats.table.gz (86/62/fopen): adding to final database dump
+0021.263 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_tax_lookup.table.tmpr1.gz (87/62/fopen): adding to final database dump
+0021.264 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_order_tax_lookup.table.gz (88/62/fopen): adding to final database dump
+0021.264 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_orders.table.tmpr0.gz (89/62/fopen): adding to final database dump
+0021.264 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_orders.table.gz (90/62/fopen): adding to final database dump
+0021.265 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_orders_meta.table.tmpr0.gz (91/62/fopen): adding to final database dump
+0021.265 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_orders_meta.table.gz (92/62/fopen): adding to final database dump
+0021.265 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_product_attributes_lookup.table.tmpr1.gz (93/62/fopen): adding to final database dump
+0021.266 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_product_attributes_lookup.table.gz (94/62/fopen): adding to final database dump
+0021.266 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_product_download_directories.table.tmpr3.gz (95/62/fopen): adding to final database dump
+0021.267 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_product_download_directories.table.gz (96/62/fopen): adding to final database dump
+0021.267 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_rate_limits.table.tmpr0.gz (97/62/fopen): adding to final database dump
+0021.267 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_rate_limits.table.gz (98/62/fopen): adding to final database dump
+0021.267 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_webhooks.table.tmpr0.gz (99/62/fopen): adding to final database dump
+0021.269 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_wc_webhooks.table.gz (100/62/fopen): adding to final database dump
+0021.269 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_api_keys.table.tmpr0.gz (101/62/fopen): adding to final database dump
+0021.269 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_api_keys.table.gz (102/62/fopen): adding to final database dump
+0021.270 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_attribute_taxonomies.table.tmpr0.gz (103/62/fopen): adding to final database dump
+0021.270 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_attribute_taxonomies.table.gz (104/62/fopen): adding to final database dump
+0021.271 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_downloadable_product_permissions.table.tmpr0.gz (105/62/fopen): adding to final database dump
+0021.271 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_downloadable_product_permissions.table.gz (106/62/fopen): adding to final database dump
+0021.271 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_log.table.tmpr0.gz (107/62/fopen): adding to final database dump
+0021.272 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_log.table.gz (108/62/fopen): adding to final database dump
+0021.272 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_order_items.table.tmpr0.gz (109/62/fopen): adding to final database dump
+0021.272 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_order_items.table.gz (110/62/fopen): adding to final database dump
+0021.273 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_payment_tokens.table.tmpr0.gz (111/62/fopen): adding to final database dump
+0021.273 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_payment_tokens.table.gz (112/62/fopen): adding to final database dump
+0021.273 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_sessions.table.tmpr10.gz (113/62/fopen): adding to final database dump
+0021.274 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_sessions.table.gz (114/62/fopen): adding to final database dump
+0021.274 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_shipping_zone_locations.table.tmpr0.gz (115/62/fopen): adding to final database dump
+0021.274 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_shipping_zone_locations.table.gz (116/62/fopen): adding to final database dump
+0021.275 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_shipping_zone_methods.table.tmpr0.gz (117/62/fopen): adding to final database dump
+0021.275 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_shipping_zone_methods.table.gz (118/62/fopen): adding to final database dump
+0021.276 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_shipping_zones.table.tmpr0.gz (119/62/fopen): adding to final database dump
+0021.276 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_shipping_zones.table.gz (120/62/fopen): adding to final database dump
+0021.276 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_tax_rate_locations.table.tmpr0.gz (121/62/fopen): adding to final database dump
+0021.277 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_tax_rate_locations.table.gz (122/62/fopen): adding to final database dump
+0021.277 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_tax_rates.table.tmpr0.gz (123/62/fopen): adding to final database dump
+0021.277 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db-table-pVY_woocommerce_tax_rates.table.gz (124/62/fopen): adding to final database dump
+0021.306 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db.gz: finished writing out complete database file (358.9 KB)
+0021.315 (0) Total database tables backed up: 62 (backup_2025-03-17-0543_iDishbe_1052bb93eee7-db.gz, size: 367589, sha1: 655b4240baaff745ec2efce1ebd2c0abeb38bc71, sha256: 228eca5ea04aae229e129dc6aaa313727f1fb58090a09f32bc28f9debe0117ac)
+0021.321 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-plugins.zip: plugins: This file has already been successfully processed
+0021.321 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-themes.zip: themes: This file has already been successfully processed
+0021.322 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-uploads.zip: uploads: This file has already been successfully processed
+0021.322 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-others.zip: others: This file has already been successfully processed
+0021.322 (0) backup_2025-03-17-0543_iDishbe_1052bb93eee7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0021.323 (0) Saving backup history. Total backup size: 140.5 MB
+0021.324 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0021.326 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0021.327 (0) No remote despatch: user chose no remote backup service
+0021.327 (0) Recording as successfully uploaded: backup_2025-03-17-0543_iDishbe_1052bb93eee7-db.gz
+0021.329 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0021.330 (0) Number of backup sets in history: 2; groups (db): 1
+0021.331 (0) Examining (for databases) backup set with group_id=0, nonce=1052bb93eee7, datestamp=1742190238 (Mar 17 2025 05:43:58)
+0021.331 (0) This backup set is the backup set just made, so will not be deleted.
+0021.331 (0) Examining (for databases) backup set with group_id=0, nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0021.331 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.331 (0) Number of backup sets in history: 2; groups (files): 1
+0021.331 (0) Examining (for files) backup set with nonce=1052bb93eee7, datestamp=1742190238 (Mar 17 2025 05:43:58)
+0021.332 (0) This backup set is the backup set just made, so will not be deleted.
+0021.332 (0) This backup set is the backup set just made, so will not be deleted.
+0021.332 (0) This backup set is the backup set just made, so will not be deleted.
+0021.332 (0) This backup set is the backup set just made, so will not be deleted.
+0021.332 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.332 (0) Examining (for files) backup set with nonce=6211164e0bd7, datestamp=1741841319 (Mar 13 2025 04:48:39)
+0021.332 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.332 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0021.334 (0) Resume backup (1052bb93eee7, 0): finish run
+0021.336 (0) Decremented the semaphore (fd) by 1
+0021.337 (0) Semaphore (fd) unlocked
+0021.338 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0021.342 (0) No email will/can be sent - the user has not configured an email address.
+0021.342 (0) The backup succeeded and is now complete

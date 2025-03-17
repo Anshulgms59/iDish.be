@@ -1,0 +1,26 @@
+/* Header */
+
+.custom-li-class.list-unstyled li {
+    text-decoration: none;
+}
+
+.custom-li-class.list-unstyled li a {
+    text-decoration: none;
+}
+
+.custom-li-class.text-dark li a {
+    color: #000;
+}
+
+.custom-li-class li.menu-item:hover a {
+    color: #f7941d !important;
+}
+
+.custom-li-class.text-dark li a {
+    padding: 10px 12px;
+}
+
+.custom-logo {
+    max-height: 45px;
+    max-width: 125px !important;
+}

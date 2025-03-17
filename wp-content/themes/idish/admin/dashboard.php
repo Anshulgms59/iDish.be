@@ -1,0 +1,1 @@
+<?php echo do_shortcode('[dish_image_search]') ?>
